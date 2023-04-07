@@ -202,10 +202,10 @@ const Home: NextPage = () => {
         </a>
 
         <h1 className="sm:text-6xl text-4xl max-w-2xl font-bold text-slate-900">
-          Planeación de Clase
+          Generador Articulos de Investigación
         </h1>
         <p className="text-slate-500 mt-5">
-          47,118 clases generadas con ai.
+          4,118 articulos generadas con ai.
         </p>
         <div className="max-w-xl w-full">
           <div className="flex mt-10 items-center space-x-3">
@@ -218,7 +218,7 @@ const Home: NextPage = () => {
             />
 
             <p className="text-left font-medium">
-              Escribe el tema para la clase{" "}
+              Escribe el tema para el articulo{" "}
               <span className="text-slate-500">(puede ser el que sea)</span>
             </p>
           </div>
@@ -242,7 +242,7 @@ const Home: NextPage = () => {
               className="bg-black rounded-xl text-white font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-black/80 w-full"
               onClick={(e) => generatewikipediaPage(e)}
             >
-              Genera Planeación de Clase &rarr;
+              Genera Articulo de Investigación &rarr;
             </button>
           )}
           {loading && (
@@ -294,7 +294,7 @@ const Home: NextPage = () => {
                     className="bg-black rounded-xl text-white font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-black/80 w-full"
                     onClick={(e) => createNewSection(e)}
                   >
-                    Add a new section &rarr;
+                    Agregar sección nueva &rarr;
                   </button>
                 </>
               )}
