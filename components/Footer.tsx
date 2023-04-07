@@ -6,7 +6,7 @@ export default function Footer() {
       <div>
         Powered by{" "}
         <a
-          href="https://www.youtube.com/channel/UCPTEKGB8JbLxdCj4BdPpb3Q?sub_confirmation=1"
+          href="https://samasat.com/"
           target="_blank"
           rel="noreferrer"
           className="font-bold hover:underline transition underline-offset-2"
@@ -17,9 +17,9 @@ export default function Footer() {
       </div>
       <div className="flex space-x-4 pb-4 sm:pb-0">
         <Link
-          href="https://twitter.com/SimonMoisselin1"
+          href="https://twitter.com/josuetoz"
           className="group"
-          aria-label="Simon on Twitter"
+          aria-label="Josue on Twitter"
         >
           <svg
             aria-hidden="true"
@@ -30,9 +30,9 @@ export default function Footer() {
         </Link>
         {/* add link youtube */}
         <Link
-          href="https://github.com/simonManydata/gpt_wikipedia"
+          href="https://github.com/joztos"
           className="group"
-          aria-label="TaxPal on GitHub"
+          aria-label="Josue on GitHub"
         >
           <svg
             aria-hidden="true"
