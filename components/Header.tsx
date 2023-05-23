@@ -13,6 +13,7 @@ const Header: React.FC = () => {
                 src="https://i.im.ge/2023/04/11/IBXuyY.EMDILOGO.png"
                 width={120}
                 height={48}
+                unoptimized={true} // Add this prop if the image doesn't load and your domain is not in the next.config.js
               />
             </div>
           </div>
