@@ -202,7 +202,7 @@ const Home: NextPage = () => {
         </a>
 
         <h1 className="sm:text-6xl text-4xl max-w-2xl font-bold text-slate-900">
-          Generador Articulos de Investigación
+        Research Article Generator
         </h1>
         <p className="text-slate-500 mt-5">
           4,118 articulos generadas con ai.
@@ -218,8 +218,8 @@ const Home: NextPage = () => {
             />
 
             <p className="text-left font-medium">
-              Escribe el tema para el articulo{" "}
-              <span className="text-slate-500">(puede ser el que sea)</span>
+              Enter the topic for the article {" "}
+              <span className="text-slate-500">(it can be anything)</span>
             </p>
           </div>
           <textarea
@@ -227,11 +227,11 @@ const Home: NextPage = () => {
             onChange={(e) => setWikipediaPage(e.target.value)}
             rows={1}
             className="w-full rounded-md border-gray-300 shadow-sm focus:border-black focus:ring-black my-5"
-            placeholder={"Civilización Maya"}  
+            placeholder={"Mayan Civilization"}  
           />
           <div className="flex mb-5 items-center space-x-3">
             <Image src="/2-black.png" width={30} height={30} alt="1 icon" />
-            <p className="text-left font-medium">Selecciona el Nivel Escolar.</p>
+            <p className="text-left font-medium">Select the School Level.</p>
           </div>
           <div className="block">
             <DropDown vibe={vibe} setVibe={(newVibe) => setVibe(newVibe)} />
@@ -242,7 +242,7 @@ const Home: NextPage = () => {
               className="bg-black rounded-xl text-white font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-black/80 w-full"
               onClick={(e) => generatewikipediaPage(e)}
             >
-              Genera Articulo de Investigación &rarr;
+              Generate Research Article &rarr;
             </button>
           )}
           {loading && (

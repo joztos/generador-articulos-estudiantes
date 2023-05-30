@@ -1,18 +1,25 @@
-export const getStylePrompt = (grade) => {
-  if (grade === "Primero de Primaria") {
-    return "Escribe una historia corta utilizando palabras sencillas y oraciones cortas. Incluye un personaje, un lugar y una acción.";
-  } else if (grade === "Segundo de Primaria") {
-    return "Escribe una historia que tenga al menos dos personajes, una situación problemática y una solución. Utiliza oraciones simples y vocabulario adecuado para tu nivel.";
-  } else if (grade === "Tercero de Primaria") {
-    return "Crea una historia utilizando descripciones detalladas de los personajes y el entorno. Incluye un conflicto y su resolución, y asegúrate de utilizar oraciones más complejas.";
-  } else if (grade === "Cuarto de Primaria") {
-    return "Redacta un informe breve sobre un tema de interés personal o un tema que estés estudiando en la escuela. Asegúrate de incluir hechos e información relevante.";
-  } else if (grade === "Quinto de Primaria") {
-    return "Escribe un texto argumentativo sobre un tema de actualidad o relevante para ti. Asegúrate de presentar una postura clara, argumentos sólidos y ejemplos para respaldar tu opinión.";
-  } else if (grade === "Sexto de Primaria") {
-    return "Redacta un ensayo que compare y contraste dos temas relacionados. Asegúrate de incluir una introducción, desarrollo de argumentos y una conclusión sólida.";
+const getStylePrompt = (grade) => {
+  if (grade === "First Grade") {
+    return "Write a short story using simple words and short sentences. Include a character, a place, and an action.";
+  } else if (grade === "Second Grade") {
+    return "Write a story that has at least two characters, a problematic situation, and a solution. Use simple sentences and vocabulary appropriate for your level.";
+  } else if (grade === "Third Grade") {
+    return "Create a story using detailed descriptions of the characters and the environment. Include a conflict and its resolution, and make sure to use more complex sentences.";
+  } else if (grade === "Fourth Grade") {
+    return "Write a brief report on a topic of personal interest or a topic you are studying in school. Make sure to include facts and relevant information.";
+  } else if (grade === "Fifth Grade") {
+    return "Write an argumentative text about a current or relevant topic for you. Make sure to present a clear stance, solid arguments, and examples to support your opinion.";
+  } else if (grade === "Sixth Grade") {
+    return "Write an essay that compares and contrasts two related topics. Make sure to include an introduction, development of arguments, and a strong conclusion.";
+  } else if (grade === "Seventh Grade") {
+    return "Write a persuasive article on a subject of your choice. Provide strong reasoning and evidence to support your viewpoint.";
+  } else if (grade === "Eighth Grade") {
+    return "Compose a descriptive narrative capturing a memorable experience. Utilize vivid language and sensory details to engage the reader.";
+  } else if (grade === "Ninth Grade") {
+    return "Write a research paper exploring a historical event or a scientific concept. Include credible sources and a well-structured argument.";
   }
 };
+
 
 
 

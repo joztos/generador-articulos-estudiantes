@@ -11,12 +11,15 @@ function classNames(...classes: string[]) {
 }
 
 export type getStylePrompt =
-  | "Primero de Primaria"
-  | "Segundo de Primaria"
-  | "Tercero de Primaria"
-  | "Cuarto de Primaria"
-  | "Quinto de Primaria"
-  | "Sexto de Primaria";
+  | "First Grade"
+  | "Second Grade"
+  | "Third Grade"
+  | "Fourth Grade"
+  | "Fifth Grade"
+  | "Sixth Grade"
+  | "Seventh Grade"
+  | "Eighth Grade"
+  | "Ninth Grade";
 
 interface DropDownProps {
   vibe: getStylePrompt;
@@ -24,13 +27,17 @@ interface DropDownProps {
 }
 
 let vibes: getStylePrompt[] = [
-  "Primero de Primaria",
-  "Segundo de Primaria",
-  "Tercero de Primaria",
-  "Cuarto de Primaria",
-  "Quinto de Primaria",
-  "Sexto de Primaria",
+  "First Grade",
+  "Second Grade",
+  "Third Grade",
+  "Fourth Grade",
+  "Fifth Grade",
+  "Sixth Grade",
+  "Seventh Grade",
+  "Eighth Grade",
+  "Ninth Grade",
 ];
+
 
 export default function DropDown({ vibe, setVibe }: DropDownProps) {
   return (
