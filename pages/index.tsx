@@ -205,7 +205,7 @@ const Home: NextPage = () => {
         Research Article Generator
         </h1>
         <p className="text-slate-500 mt-5">
-          4,118 articulos generadas con ai.
+        4,118 articles generated with AI..
         </p>
         <div className="max-w-xl w-full">
           <div className="flex mt-10 items-center space-x-3">
