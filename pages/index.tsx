@@ -20,7 +20,7 @@ import {
 const Home: NextPage = () => {
   const [loading, setLoading] = useState(false);
   const [wikipediaPage, setWikipediaPage] = useState("");
-  const [vibe, setVibe] = useState<getStylePrompt>("Primero de Primaria");
+  const [vibe, setVibe] = useState<getStylePrompt>("First Grade");
   const [generatedSections, setgeneratedSections] = useState([]);
   const [currentSectionIndex, setCurrentSectionIndex] = useState(0);
   const continueSection = async (e: any, sectionIndex) => {
